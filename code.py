@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud, STOPWORDS
 
 # Upload your data as a .txt file and load it as a data frame 
-text = open('biden.txt', 
+text = open('data.txt', 
             mode='r', 
             encoding='utf-8') \
             .read().replace('\n','')
