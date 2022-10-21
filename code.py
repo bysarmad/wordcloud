@@ -23,3 +23,4 @@ plt.figure(figsize=[15,10])                        # set the figsize
 plt.imshow(wc, interpolation="bilinear")           # plot the wordcloud
 plt.axis("off")                                    # remove plot axes
 plt.savefig('wordcloud.png')                       # save as png
+plt.show()
